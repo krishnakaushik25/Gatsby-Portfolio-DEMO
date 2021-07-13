@@ -21,7 +21,7 @@ To view a demo example, **[click here](https://gatsby-simplefolio.netlify.com/)*
 To view a live example, **[click here](https://cobidev.com/)**
 
 ---
-Inpired from the template of **[click here](https://github.com/cobidev/gatsby-simplefolio/)**
+Inpired from this  template **[click here](https://github.com/cobidev/gatsby-simplefolio/)**
 
 ## Getting Started 🚀
 
