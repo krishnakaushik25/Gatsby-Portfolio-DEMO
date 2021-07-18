@@ -103,4 +103,4 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 
 ## Acknowledgments 🎁
 
-Thanks to [Cobidev](https://github.com/cobidev/gatsby-simplefolio/)
+Huge Thanks to [Cobidev](https://github.com/cobidev/gatsby-simplefolio/)
