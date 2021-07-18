@@ -26,7 +26,7 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
- 
+
   {
     id: nanoid(),
     img: 'homepage2.png',
@@ -45,6 +45,16 @@ export const projectsData = [
     url: 'https://ml-diabetes-predictionapi.herokuapp.com/',
     repo: 'https://github.com/krishnakaushik25/Diabetes-Prediction-ML-model-Deployment', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'esite.png',
+    title: 'Real World eCommerce app using Python and Django Framework',
+    info: 'Built a fully custom featured eCommerce application using a Python Django web framework.Some of the features categories and products, Carts, Incrementing, Decrementing and removing cart items, Unlimited Product image gallery, Orders, Payments,sending the order received email, clearing the cart, Order completion page as well as generating an invoice for the order.',
+    info2: 'Made a Review and Rating system where the interactive rating stars  are designed that even allows you to rate a half-star rating.Made my account functionalities for the customer who can easily edit his profile, profile pictures, change his account password, and also manage his orders.',
+    url: 'http://simplekart-env.eba-eweha2je.eu-west-2.elasticbeanstalk.com/',
+    repo: 'https://github.com/krishnakaushik25/Django-eCommerce-website', // if no repo, the button will not show up
+  },
+
 ];
 
 // CONTACT DATA
