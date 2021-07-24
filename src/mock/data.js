@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'I am a undergraduate student from Indian Institute of Technology Guwahati(IITG) pursuing my B.Tech in Electronics and Communications Engineering (ECE). Love to experiment a lot with AI and SDE Domain Topics by doing projects.',
   paragraphTwo: 'I worked as a software developer intern at Publicis Sapient.',
-  paragraphThree: 'I am looking to collaborate on Full Stack Web development and ML/DL based Projects. I am also very interested in AI domain especially Deep learning',
+  paragraphThree: 'I am looking to collaborate on Full Stack Web development and ML/DL based Projects. I am also very interested in AI domain especially Deep learning.I love to experiment various technologies by doing challenging projects.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -34,7 +34,7 @@ export const projectsData = [
     info: 'Full stack, fully-featured social media application using MERNG Stack( MongoDB, Express, React, Node, GraphQL) and Semantic-UI for the User Interface.',
     info2: '',
     url: 'nervous-swanson-31f8b1.netlify.app/',
-    repo: 'https://github.com/krishnakaushik25/MERNG-Social-Media-APP', // if no repo, the button will not show up
+    repo: 'https://github.com/krishnakaushik25/MERNG-Social-Media-APP', 
   },
   {
     id: nanoid(),
@@ -43,7 +43,7 @@ export const projectsData = [
     info: 'Predict whether the person has diabetes or not based on some data fields.Created a model using Machine Learning.The  Web app is created using flask, connecting it with model and deploying the model using Heroku.',
     info2: '',
     url: 'https://ml-diabetes-predictionapi.herokuapp.com/',
-    repo: 'https://github.com/krishnakaushik25/Diabetes-Prediction-ML-model-Deployment', // if no repo, the button will not show up
+    repo: 'https://github.com/krishnakaushik25/Diabetes-Prediction-ML-model-Deployment', 
   },
   {
     id: nanoid(),
@@ -52,8 +52,18 @@ export const projectsData = [
     info: 'Built a fully custom featured eCommerce application using a Python Django web framework.Some of the advanced features include Unlimited Product image gallery, Orders, Payments,sending the order received email, Order completion page as well as generating an invoice for the order.',
     info2: 'Made a Review and Rating system where it even allows you to rate a half-star rating.Made my account functionalities for the customer who can easily edit his profile, profile pictures, change his account password, and also manage his orders.',
     url: 'http://simplekart-env.eba-eweha2je.eu-west-2.elasticbeanstalk.com/',
-    repo: 'https://github.com/krishnakaushik25/Django-eCommerce-website', // if no repo, the button will not show up
+    repo: 'https://github.com/krishnakaushik25/Django-eCommerce-website',
   },
+  {
+    id: nanoid(),
+    img: 'chatbot.png',
+    title: 'Chatbot for a Webpage using Node.js and React with NLP agent Dialogflow',
+    info: 'It recommends courses online for the user in the chat box. Displays rich messages for the chatbot like cards and quick replies along with advanced DialogFlows features, like follow up intents, contexts, events, and slot fillings. This features make bot creation much easier and much friendlier!',
+    info2: 'The bot will be able to remember things, that is store information into a database or connect to other API services. The database platform is MONGODB and this samplebot is hosted on heroku.',
+    url: 'https://limitless-caverns-27572.herokuapp.com/',
+    repo: 'https://github.com/krishnakaushik25/Chatbot-with-React-Node.js-using-Dialogflow', 
+  }
+
 
 ];
 
