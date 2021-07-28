@@ -1,10 +1,11 @@
+  
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Hello Folks!', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -27,7 +28,16 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [
 
-  {
+    {
+        id: nanoid(),
+        img: 'slack_app.png',
+        title: 'React-Firebase-Slack-Clone WEB APP',
+        info: 'Built a live chat app called CodeChat, where users will be able to create channels, to send messages to other users on those channels.The other functionalities include Send media files, see when other users are typing, add emojis to their messages,Favorite and unfavorite channels they like or dislike, and get notifications about new messages on other channels,Creating,cropping and uploading user avatars.',
+        info2: 'We can also send Direct Private Messages to other users in our chat.It also tracks/shows when users are online / offline.Created user interfaces with Semantic UI React and deployed the app to the web using Firebase Tools.',
+        url: 'https://slack-react-cl.web.app/',
+        repo: 'https://github.com/krishnakaushik25/react-firebase-slack-web-app', 
+      },
+      {
     id: nanoid(),
     img: 'homepage2.png',
     title: 'Social Media APP Using MERNG Tech Stack',
